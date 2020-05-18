@@ -1,0 +1,23 @@
+body {
+    background-image: url(backgroundImage.jpg);
+    /*Image to fit the page*/
+    background-size: cover;
+}
+
+
+h2 {
+    color:rgb(255,0,0);
+    text-align: center;
+    /*rgba => transparent*/
+    border: 5px solid rgba(255,176,170,0.5);
+    cursor: pointer;
+}
+
+p {
+    color: #AA4139;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
