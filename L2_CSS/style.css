@@ -30,6 +30,17 @@ p {
     /*Depends on the computer*/
     font-family: 'Poiret One', cursive;
 }
+img {
+    /*Float the image to the left*/
+    float: left;
+}
+footer {
+    /*Clear to put the footer to the bottom website*/
+    clear: both;
+    text-align: center;
+    font-size: 150%;
+    color: purple;
+}
 
 p {
     color: green;
