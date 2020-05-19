@@ -1,3 +1,8 @@
+/* Star * => Apply for All Elements*/
+* {
+    text-align: right;
+}
+
 body {
     background-image: url(backgroundImage.jpg);
     /*Image to fit the page*/
@@ -5,7 +10,7 @@ body {
 }
 
 
-h2 {
+h2 + p:hover {
     color:rgb(255,0,0);
     text-align: center;
     /*rgba => transparent*/
@@ -14,10 +19,30 @@ h2 {
 }
 
 p {
-    color: #AA4139;
+    color: #AA4139 !important;
+}
+
+p {
+    color: green;
 }
 
 li {
     list-style: none;
     display: inline-block;
+}
+
+.webtext:first-child{
+    border: 5px dashed green;
+}
+
+.active {
+    color: red;
+}
+
+#div1{
+    background: rgba(0,0,255,0.2)
+}
+
+#div2{
+    background: rgba(255,0,0,0.2)
 }
